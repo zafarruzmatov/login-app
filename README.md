@@ -1,19 +1,19 @@
 # Auth App
-- [ ] Login Page UI
-- [ ] App Page UI
-- [ ] Auth Context
-- [ ] Error Modal
+
+-   [x] Login Page UI
+-   [ ] App Page UI
+-   [ ] Auth Context
+-   [ ] Error Modal
 
 ## Use
-- React js
-- Typescript 
-- Scss
+
+-   React js
+-   Typescript
+-   Scss
 
 ## Start project
 
 ```js
-   yarn 
+   yarn
    yarn run dev
 ```
-
-

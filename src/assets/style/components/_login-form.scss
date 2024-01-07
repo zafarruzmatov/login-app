@@ -1,0 +1,35 @@
+.login-form {
+    margin-top: 24px;
+    width: 100%;
+    background-color: $white;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__label {
+        font-size: 16px;
+        color: $black;
+    }
+
+    &__input {
+        padding: 16px 20px;
+        border-radius: 12px;
+        font-size: 14px;
+        border: 1px solid $primary-color;
+        outline-color: $primary-color;
+        outline-width: 3px;
+    }
+
+    &__btn {
+        padding: 16px 32px;
+        background-color: $primary-color;
+        width: 100%;
+        color: $white;
+        border-radius: 8px;
+        margin-top: 12px;
+        font-size: 18px;
+    }
+}
