@@ -1,4 +1,5 @@
 import LoginForm from "./components/LoginForm";
+import LoginAlert from "./components/LoginAlert";
 
 const LoginPage = () => {
     return (
@@ -9,6 +10,8 @@ const LoginPage = () => {
                     <LoginForm />
                 </div>
             </div>
+
+            <LoginAlert />
         </div>
     );
 };

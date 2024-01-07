@@ -2,8 +2,8 @@
 
 -   [x] Login Page UI
 -   [x] App Page UI
--   [ ] Auth Context
--   [ ] Error Modal
+-   [x] Auth Context
+-   [x] Error Modal
 
 ## Use
 
