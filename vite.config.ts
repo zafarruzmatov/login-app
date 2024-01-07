@@ -12,6 +12,7 @@ export default defineConfig({
             "~context": path.resolve(__dirname, "src/context"),
             "~components": path.resolve(__dirname, "src/components"),
             "~pages": path.resolve(__dirname, "src/pages"),
+            "~constants": path.resolve(__dirname, "src/constants"),
         },
     },
 });
