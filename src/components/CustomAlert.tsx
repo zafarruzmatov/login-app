@@ -23,7 +23,7 @@ const CustomAlert: FC<CustomAlertProps> = ({
                 <h2 className="custom-alert__title">{title}</h2>
                 <p className="custom-alert__message">{message}</p>
                 <button className="custom-alert__btn" onClick={onClose}>
-                    Close
+                    Chiqish
                 </button>
             </div>
         </div>
