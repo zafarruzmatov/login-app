@@ -10,11 +10,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         height: 100%;
     }
 
     &__title {
         color: $white;
         font-size: 20px;
+    }
+
+    &__btn {
+        padding: 16px 32px;
+        background-color: $white;
+        color: $primary-color;
+        border-radius: 8px;
+        margin-top: 20px;
+        font-size: 18px;
     }
 }
