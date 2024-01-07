@@ -1,10 +1,10 @@
-import { useState } from "react";
 import AppRoutes from "./AppRoutes";
 import AuthRoutes from "./AuthRoutes";
+import { useAuthContext } from "~context/AuthProvider";
 
 function App() {
-    const [isAuth] = useState(true);
-    return isAuth ? <AppRoutes /> : <AuthRoutes />;
+    const { isAuthenticated } = useAuthContext();
+    return isAuthenticated ? <AppRoutes /> : <AuthRoutes />;
 }
 
 export default App;
