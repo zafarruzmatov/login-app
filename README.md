@@ -1,7 +1,7 @@
 # Auth App
 
 -   [x] Login Page UI
--   [ ] App Page UI
+-   [x] App Page UI
 -   [ ] Auth Context
 -   [ ] Error Modal
 
